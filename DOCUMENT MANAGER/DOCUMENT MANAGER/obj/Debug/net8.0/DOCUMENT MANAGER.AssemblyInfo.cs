@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DOCUMENT MANAGER")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+597ff9d7b793b2baaa50a70b83c306009f27a361")]
 [assembly: System.Reflection.AssemblyProductAttribute("DOCUMENT MANAGER")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DOCUMENT MANAGER")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

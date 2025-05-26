@@ -1,7 +1,80 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|d:\\document manager\\document-manager\\document manager\\document manager\\services\\accesscontrolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|solutionrelative:document manager\\services\\accesscontrolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|d:\\document manager\\document-manager\\document manager\\document manager\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|solutionrelative:document manager\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|d:\\document manager\\document-manager\\document manager\\document manager\\services\\taggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|solutionrelative:document manager\\services\\taggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|d:\\document manager\\document-manager\\document manager\\document manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|solutionrelative:document manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|d:\\document manager\\document-manager\\document manager\\document manager\\services\\folderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|solutionrelative:document manager\\services\\folderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|d:\\document manager\\document-manager\\document manager\\document manager\\services\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|solutionrelative:document manager\\services\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|d:\\document manager\\document-manager\\document manager\\document manager\\services\\fileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|solutionrelative:document manager\\services\\fileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|d:\\document manager\\document-manager\\document manager\\document manager\\models\\uploadedfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|solutionrelative:document manager\\models\\uploadedfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|d:\\document manager\\document-manager\\document manager\\document manager\\models\\documenttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|solutionrelative:document manager\\models\\documenttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|d:\\document manager\\document-manager\\document manager\\document manager\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|solutionrelative:document manager\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|d:\\document manager\\document-manager\\document manager\\document manager\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|solutionrelative:document manager\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|d:\\document manager\\document-manager\\document manager\\document manager\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|solutionrelative:document manager\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|d:\\document manager\\document-manager\\document manager\\document manager\\migrations\\20250525200945_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|solutionrelative:document manager\\migrations\\20250525200945_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|d:\\document manager\\document-manager\\document manager\\document manager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|solutionrelative:document manager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|d:\\document manager\\document-manager\\document manager\\document manager\\models\\accesscontrolentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|solutionrelative:document manager\\models\\accesscontrolentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|d:\\document manager\\document-manager\\document manager\\document manager\\models\\fileuploadrequestcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|solutionrelative:document manager\\models\\fileuploadrequestcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|d:\\document manager\\document-manager\\document manager\\document manager\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|solutionrelative:document manager\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|d:\\document manager\\document-manager\\document manager\\document manager\\models\\folder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0892AD-45F1-41F7-9B57-BFEEEC1AD4AA}|DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj|solutionrelative:document manager\\models\\folder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +82,242 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FolderService.cs",
+              "DocumentMoniker": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Services\\FolderService.cs",
+              "RelativeDocumentMoniker": "DOCUMENT MANAGER\\Services\\FolderService.cs",
+              "ToolTip": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Services\\FolderService.cs*",
+              "RelativeToolTip": "DOCUMENT MANAGER\\Services\\FolderService.cs*",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:43:09.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UploadedFile.cs",
+              "DocumentMoniker": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Models\\UploadedFile.cs",
+              "RelativeDocumentMoniker": "DOCUMENT MANAGER\\Models\\UploadedFile.cs",
+              "ToolTip": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Models\\UploadedFile.cs",
+              "RelativeToolTip": "DOCUMENT MANAGER\\Models\\UploadedFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:32:16.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileUploadService.cs",
+              "DocumentMoniker": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Services\\FileUploadService.cs",
+              "RelativeDocumentMoniker": "DOCUMENT MANAGER\\Services\\FileUploadService.cs",
+              "ToolTip": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Services\\FileUploadService.cs*",
+              "RelativeToolTip": "DOCUMENT MANAGER\\Services\\FileUploadService.cs*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:32:53.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaggingService.cs",
+              "DocumentMoniker": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Services\\TaggingService.cs",
+              "RelativeDocumentMoniker": "DOCUMENT MANAGER\\Services\\TaggingService.cs",
+              "ToolTip": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Services\\TaggingService.cs",
+              "RelativeToolTip": "DOCUMENT MANAGER\\Services\\TaggingService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T18:10:28.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccessControlService.cs",
+              "DocumentMoniker": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Services\\AccessControlService.cs",
+              "RelativeDocumentMoniker": "DOCUMENT MANAGER\\Services\\AccessControlService.cs",
+              "ToolTip": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Services\\AccessControlService.cs*",
+              "RelativeToolTip": "DOCUMENT MANAGER\\Services\\AccessControlService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:26:12.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileValidator.cs",
+              "DocumentMoniker": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Services\\FileValidator.cs",
+              "RelativeDocumentMoniker": "DOCUMENT MANAGER\\Services\\FileValidator.cs",
+              "ToolTip": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Services\\FileValidator.cs",
+              "RelativeToolTip": "DOCUMENT MANAGER\\Services\\FileValidator.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:36:39.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DOCUMENT MANAGER\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "DOCUMENT MANAGER\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:30:08.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Program.cs",
+              "RelativeDocumentMoniker": "DOCUMENT MANAGER\\Program.cs",
+              "ToolTip": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Program.cs*",
+              "RelativeToolTip": "DOCUMENT MANAGER\\Program.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:02:37.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DocumentTag.cs",
+              "DocumentMoniker": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Models\\DocumentTag.cs",
+              "RelativeDocumentMoniker": "DOCUMENT MANAGER\\Models\\DocumentTag.cs",
+              "ToolTip": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Models\\DocumentTag.cs",
+              "RelativeToolTip": "DOCUMENT MANAGER\\Models\\DocumentTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:43:40.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DocumentsController.cs",
+              "DocumentMoniker": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Controllers\\DocumentsController.cs",
+              "RelativeDocumentMoniker": "DOCUMENT MANAGER\\Controllers\\DocumentsController.cs",
+              "ToolTip": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Controllers\\DocumentsController.cs*",
+              "RelativeToolTip": "DOCUMENT MANAGER\\Controllers\\DocumentsController.cs*",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwBEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T20:51:17.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "DOCUMENT MANAGER\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "DOCUMENT MANAGER\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T20:50:28.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250525200945_InitialCreate.cs",
+              "DocumentMoniker": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Migrations\\20250525200945_InitialCreate.cs",
+              "RelativeDocumentMoniker": "DOCUMENT MANAGER\\Migrations\\20250525200945_InitialCreate.cs",
+              "ToolTip": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Migrations\\20250525200945_InitialCreate.cs",
+              "RelativeToolTip": "DOCUMENT MANAGER\\Migrations\\20250525200945_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T20:50:25.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AccessControlEntry.cs",
+              "DocumentMoniker": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Models\\AccessControlEntry.cs",
+              "RelativeDocumentMoniker": "DOCUMENT MANAGER\\Models\\AccessControlEntry.cs",
+              "ToolTip": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Models\\AccessControlEntry.cs",
+              "RelativeToolTip": "DOCUMENT MANAGER\\Models\\AccessControlEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:25:04.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "DOCUMENT MANAGER\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "DOCUMENT MANAGER\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:29:44.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\appsettings.json",
+              "RelativeDocumentMoniker": "DOCUMENT MANAGER\\appsettings.json",
+              "ToolTip": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\appsettings.json",
+              "RelativeToolTip": "DOCUMENT MANAGER\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-25T19:52:52.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FileUploadRequestcs.cs",
+              "DocumentMoniker": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Models\\FileUploadRequestcs.cs",
+              "RelativeDocumentMoniker": "DOCUMENT MANAGER\\Models\\FileUploadRequestcs.cs",
+              "ToolTip": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Models\\FileUploadRequestcs.cs",
+              "RelativeToolTip": "DOCUMENT MANAGER\\Models\\FileUploadRequestcs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:31:29.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Models\\Permission.cs",
+              "RelativeDocumentMoniker": "DOCUMENT MANAGER\\Models\\Permission.cs",
+              "ToolTip": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Models\\Permission.cs",
+              "RelativeToolTip": "DOCUMENT MANAGER\\Models\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:28:38.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Folder.cs",
+              "DocumentMoniker": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Models\\Folder.cs",
+              "RelativeDocumentMoniker": "DOCUMENT MANAGER\\Models\\Folder.cs",
+              "ToolTip": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\Models\\Folder.cs",
+              "RelativeToolTip": "DOCUMENT MANAGER\\Models\\Folder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:42:36.065Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"

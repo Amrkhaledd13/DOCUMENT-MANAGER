@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj": {}
+    "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj": {}
   },
   "projects": {
-    "D:\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj": {
+    "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj",
+        "projectUniqueName": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj",
         "projectName": "DOCUMENT MANAGER",
-        "projectPath": "D:\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj",
+        "projectPath": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER.csproj",
         "packagesPath": "C:\\Users\\amr khaled\\.nuget\\packages\\",
-        "outputPath": "D:\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\obj\\",
+        "outputPath": "D:\\DOCUMENT MANAGER\\DOCUMENT-MANAGER\\DOCUMENT MANAGER\\DOCUMENT MANAGER\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
