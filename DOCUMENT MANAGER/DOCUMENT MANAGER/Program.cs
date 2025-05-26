@@ -18,6 +18,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddScoped<FileUploadService>();
 builder.Services.AddScoped<TaggingService>();
+builder.Services.AddScoped<FolderService>();
 
 var app = builder.Build();
 

@@ -4,6 +4,7 @@ using DOCUMENT_MANAGER.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DOCUMENT_MANAGER.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250526192730_AddFolderIdToUploadedFile")]
+    partial class AddFolderIdToUploadedFile
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -72,6 +75,9 @@ namespace DOCUMENT_MANAGER.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid?>("FolderId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -80,6 +86,8 @@ namespace DOCUMENT_MANAGER.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("FolderId");
 
                     b.HasIndex("ParentFolderId");
 
@@ -141,8 +149,12 @@ namespace DOCUMENT_MANAGER.Migrations
 
             modelBuilder.Entity("DOCUMENT_MANAGER.Models.Folder", b =>
                 {
-                    b.HasOne("DOCUMENT_MANAGER.Models.Folder", "ParentFolder")
+                    b.HasOne("DOCUMENT_MANAGER.Models.Folder", null)
                         .WithMany("SubFolders")
+                        .HasForeignKey("FolderId");
+
+                    b.HasOne("DOCUMENT_MANAGER.Models.Folder", "ParentFolder")
+                        .WithMany()
                         .HasForeignKey("ParentFolderId")
                         .OnDelete(DeleteBehavior.Restrict);
 
@@ -153,8 +165,7 @@ namespace DOCUMENT_MANAGER.Migrations
                 {
                     b.HasOne("DOCUMENT_MANAGER.Models.Folder", "Folder")
                         .WithMany("Files")
-                        .HasForeignKey("FolderId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("FolderId");
 
                     b.Navigation("Folder");
                 });

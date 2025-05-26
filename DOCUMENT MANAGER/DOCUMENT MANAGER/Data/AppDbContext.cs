@@ -29,6 +29,18 @@ namespace DOCUMENT_MANAGER.Data
                 .WithMany()
                 .HasForeignKey(f => f.ParentFolderId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+
+            modelBuilder.Entity<Folder>()
+             .HasMany(f => f.SubFolders)
+             .WithOne(f => f.ParentFolder)
+                .HasForeignKey(f => f.ParentFolderId);
+
+            modelBuilder.Entity<Folder>()
+                .HasMany(f => f.Files)
+                .WithOne(f => f.Folder)
+                .HasForeignKey(f => f.FolderId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

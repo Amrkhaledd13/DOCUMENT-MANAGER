@@ -1,61 +1,72 @@
 ﻿using DOCUMENT_MANAGER.Models;
+using DOCUMENT_MANAGER.DTOs;
 using DOCUMENT_MANAGER.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DOCUMENT_MANAGER.Controllers
 {
-    
-        [ApiController]
-        [Route("api/[controller]")]
-        public class DocumentsController : ControllerBase
+
+    [ApiController]
+    [Route("api/[controller]")]
+    public class DocumentsController : ControllerBase
+    {
+        private readonly FileUploadService _fileUploadService;
+        private readonly TaggingService _taggingService;
+        private readonly FolderService _folderService;
+
+
+        public DocumentsController(FileUploadService fileUploadService, TaggingService taggingService, FolderService folderService)
         {
-            private readonly FileUploadService _fileUploadService;
-            private readonly TaggingService _taggingService;
+            _fileUploadService = fileUploadService;
+            _taggingService = taggingService;
+            _folderService = folderService;
+        }
 
-            public DocumentsController(FileUploadService fileUploadService, TaggingService taggingService)
-            {
-                _fileUploadService = fileUploadService;
-                _taggingService = taggingService;
-            }
-
-            [HttpPost("upload")]
-            public async Task<IActionResult> Upload([FromForm] FileUploadRequest request)
+        [HttpPost("upload")]
+        public async Task<IActionResult> Upload([FromForm] FileUploadRequest request)
+        {
+            try
             {
                 var uploadedFile = await _fileUploadService.UploadAsync(request);
-                if (request.Tags != null && request.Tags.Any())
+
+                var response = new
                 {
-                    await _taggingService.AddTagsAsync(uploadedFile.Id, request.Tags);
-                }
-                return Ok(uploadedFile);
-            }
+                    FileId = uploadedFile.Id,
+                    Title = uploadedFile.Title,
+                    Description = uploadedFile.Description,
+                    UploadedAt = uploadedFile.UploadedAt,
+                    Tags = uploadedFile.Tags.Select(t => t.Tag).ToList(),
+                    FilePath = uploadedFile.FilePath
+                };
+                if (request.FolderId !=  null) 
+                _folderService.addfile(request.FolderId, uploadedFile);
 
-            [HttpPost("{documentId}/tags")]
-            public async Task<IActionResult> AddTags(Guid documentId, [FromBody] List<string> tags)
-            {
-                var result = await _taggingService.AddTagsAsync(documentId, tags);
-                return result ? Ok("Tags added successfully.") : NotFound("Document not found.");
+                return Ok(response);
             }
-
-            [HttpDelete("{documentId}/tags/{tag}")]
-            public async Task<IActionResult> RemoveTag(Guid documentId, string tag)
+            catch (ArgumentException ex)
             {
-                var result = await _taggingService.RemoveTagAsync(documentId, tag);
-                return result ? Ok("Tag removed successfully.") : NotFound("Tag or document not found.");
-            }
-
-            [HttpPut("{documentId}/tags")]
-            public async Task<IActionResult> ReplaceTags(Guid documentId, [FromBody] List<string> tags)
-            {
-                var result = await _taggingService.ReplaceTagsAsync(documentId, tags);
-                return result ? Ok("Tags replaced successfully.") : NotFound("Document not found.");
-            }
-
-            [HttpGet("{documentId}/tags")]
-            public async Task<IActionResult> GetTags(Guid documentId)
-            {
-                var tags = await _taggingService.GetTagsAsync(documentId);
-                return Ok(tags);
+                return BadRequest(new { error = ex.Message });
             }
         }
-    
+
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAllFiles()
+        {
+            var files = await _fileUploadService.GetAllFilesAsync();
+
+            var response = files.Select(file => new
+            {
+                FileId = file.Id,
+                Title = file.Title,
+                Description = file.Description,
+                UploadedAt = file.UploadedAt,
+                Tags = file.Tags.Select(t => t.Tag).ToList(),
+                FilePath = file.FilePath 
+            }).ToList();
+
+            return Ok(response);
+        }
+
+
+    }
 }

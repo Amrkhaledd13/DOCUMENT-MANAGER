@@ -50,5 +50,15 @@ namespace DOCUMENT_MANAGER.Services
         {
             return await _context.Folders.ToListAsync();
         }
+
+        public async Task<bool> addfile(Guid ? folderId, UploadedFile file)
+        {
+            var folder = await _context.Folders.FindAsync(folderId);
+            if (folder == null) return false;
+
+            folder.Files.Add(file);
+            await _context.SaveChangesAsync();
+            return true;
+        }
     }
 }
